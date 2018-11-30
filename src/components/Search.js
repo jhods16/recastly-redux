@@ -1,11 +1,12 @@
+
 import React from 'react';
- 
+
 var Search = ({ handleSearchInputChange }) => (
   <div className="search-bar form-inline">
     <input
       className="form-control"
       type="text"
-      onChange ={ (e) => {
+      onChange={(e) => {
         handleSearchInputChange(e.target.value);
       }}
     />
